@@ -8,8 +8,8 @@ import android.support.v7.widget.RecyclerView;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 
-import karpes_dev.trilogy_pazzle.abstractions.IAdapter;
-import karpes_dev.trilogy_pazzle.managers.FirebaseAdapterManager;
+import karpes_dev.trilogy_pazzle.version1.abstractions.IAdapter;
+import karpes_dev.trilogy_pazzle.version1.managers.FirebaseAdapterManager;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
