@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="gray">#a01d1d1c</color>
+    <color name="color">#eeeeee</color>
+    <color name="white">#ffffff</color>
+    <color name="drawertwo">#526061</color>
+
+    <color name="drawer_color_one">#F7F8CA</color>
+    <color name="drawer_color_two">#96D361</color>
+    <color name="drawer_color_three">#82E3FF</color>
+
+    <color name="background">#d3d0a5</color>
+    <color name="btn_end">#E0E0E2</color>
+    <color name="btn_end_press">#74764f</color>
+</resources>

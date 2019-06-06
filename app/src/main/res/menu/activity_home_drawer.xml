@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_share_black_24dp"
+            android:title="@string/share" />
+        <item
+            android:id="@+id/nav_privacy"
+            android:icon="@drawable/ic_local_parking_black_24dp"
+            android:title="@string/action_policy" />
+        <item
+            android:id="@+id/nav_instruction"
+            android:icon="@drawable/ic_info_black_24dp"
+            android:title="@string/instruction" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="@string/setting" />
+    </group>
+
+</menu>

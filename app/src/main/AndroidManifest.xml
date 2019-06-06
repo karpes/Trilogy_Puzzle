@@ -1,0 +1,38 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="karpes_dev.trilogy_pazzle">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:label="@string/app_name"
+        android:icon="@drawable/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:theme="@style/AppTheme"
+        android:largeHeap="true"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7035969394494642~2540352292" />
+
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.SplashActivity"
+
+            android:screenOrientation="portrait">
+            <intent-filter>
+            <action android:name="android.intent.action.MAIN" />
+
+            <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.FigureListActivity" />
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.FigureColoringActivity" android:screenOrientation="portrait"/>
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.SettingActivity" />
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.InstructionActivity" />
+        <activity android:name="karpes_dev.trilogy_pazzle.activitys.Privacy"/>
+
+    </application>
+</manifest>

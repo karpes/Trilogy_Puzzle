@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@android:color/darker_gray">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/backgroundshape"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tvQuestion"
+                style="@style/text_style"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="@string/pp"/>
+
+
+            <Button
+                android:id="@+id/btnGo"
+                style="@style/btn_end"
+                android:layout_marginTop="50dp"
+                android:layout_marginBottom="70dp"
+                android:background="@drawable/btnshape"
+                android:onClick="end"
+                android:text="@string/end" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>
