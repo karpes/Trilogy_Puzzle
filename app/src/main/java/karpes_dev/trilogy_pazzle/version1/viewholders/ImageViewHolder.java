@@ -8,7 +8,6 @@ import android.widget.ProgressBar;
 
 import karpes_dev.trilogy_pazzle.R;
 import karpes_dev.trilogy_pazzle.version1.abstractions.OnItemClickListener;
-import karpes_dev.trilogy_pazzle.version1.listeners.OnImageModelClickListener;
 import karpes_dev.trilogy_pazzle.version1.models.FigureModel;
 
 public class ImageViewHolder  extends RecyclerView.ViewHolder implements View.OnClickListener{

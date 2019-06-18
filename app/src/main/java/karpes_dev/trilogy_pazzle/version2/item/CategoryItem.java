@@ -1,6 +1,8 @@
-package karpes_dev.trilogy_pazzle.version2.model;
+package karpes_dev.trilogy_pazzle.version2.item;
 
-public class CategoryItem {
+import karpes_dev.trilogy_pazzle.version2.interfaces.item.ICategoryItem;
+
+public class CategoryItem implements ICategoryItem {
 
     private String imageUrl;
     private String name;
@@ -19,5 +21,13 @@ public class CategoryItem {
 
     public String getName() {
         return name;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
+
+    public void setName(String name) {
+        this.name = name;
     }
 }

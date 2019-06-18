@@ -4,7 +4,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import karpes_dev.trilogy_pazzle.R;
-import karpes_dev.trilogy_pazzle.version1.abstractions.ICommand;
+import karpes_dev.trilogy_pazzle.version2.interfaces.ICommand;
 import permission.auron.com.marshmallowpermissionhelper.PermissionResult;
 
 public class PermissionResultListener implements PermissionResult {

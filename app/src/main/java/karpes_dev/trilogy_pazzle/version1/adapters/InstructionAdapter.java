@@ -1,9 +1,9 @@
 package karpes_dev.trilogy_pazzle.version1.adapters;
 
-import android.app.Activity;
 import android.content.Context;
 import android.support.annotation.NonNull;
 import android.support.v4.view.PagerAdapter;
+import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.InflateException;
@@ -26,10 +26,10 @@ public class InstructionAdapter extends PagerAdapter {
 
 
     public static List<InstructionModel> images;
-    private Activity activity;
+    private AppCompatActivity activity;
     private LayoutInflater inflater;
 
-    public InstructionAdapter(Activity activity) {
+    public InstructionAdapter(AppCompatActivity activity) {
         this.activity = activity;
         images = new ArrayList<>();
         images.add(new InstructionModel(R.drawable.i1, R.drawable.i2,activity.getString(R.string.i1)));

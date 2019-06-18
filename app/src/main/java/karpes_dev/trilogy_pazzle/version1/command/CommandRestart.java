@@ -11,7 +11,7 @@ import com.easyandroidanimations.library.FadeOutAnimation;
 import karpes_dev.trilogy_pazzle.R;
 import karpes_dev.trilogy_pazzle.version1.abstractions.ACustomPagerAdapter;
 import karpes_dev.trilogy_pazzle.version1.abstractions.AFigureView;
-import karpes_dev.trilogy_pazzle.version1.abstractions.ICommand;
+import karpes_dev.trilogy_pazzle.version2.interfaces.ICommand;
 import karpes_dev.trilogy_pazzle.version1.abstractions.IFigure;
 import karpes_dev.trilogy_pazzle.version1.abstractions.IMathPolygon;
 import karpes_dev.trilogy_pazzle.version1.abstractions.IPolygonListenerManager;

@@ -1,4 +1,4 @@
-package karpes_dev.trilogy_pazzle.version1.abstractions;
+package karpes_dev.trilogy_pazzle.version2.interfaces;
 
 import android.view.View;
 

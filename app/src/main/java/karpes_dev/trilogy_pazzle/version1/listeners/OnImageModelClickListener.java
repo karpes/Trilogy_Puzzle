@@ -7,7 +7,6 @@ import com.easyandroidanimations.library.Animation;
 import com.easyandroidanimations.library.AnimationListener;
 import com.easyandroidanimations.library.BounceAnimation;
 
-import karpes_dev.trilogy_pazzle.version1.abstractions.ICommand;
 import karpes_dev.trilogy_pazzle.version1.activitys.FigureColoringActivity;
 import karpes_dev.trilogy_pazzle.version1.common.Common;
 

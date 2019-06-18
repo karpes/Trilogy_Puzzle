@@ -16,4 +16,7 @@
     <color name="background">#d3d0a5</color>
     <color name="btn_end">#E0E0E2</color>
     <color name="btn_end_press">#74764f</color>
+
+
+    <color name="category_name">#83FFFFFF</color>
 </resources>

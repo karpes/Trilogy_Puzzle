@@ -10,7 +10,7 @@ import android.widget.Toast;
 import java.util.UUID;
 
 import karpes_dev.trilogy_pazzle.R;
-import karpes_dev.trilogy_pazzle.version1.abstractions.ICommand;
+import karpes_dev.trilogy_pazzle.version2.interfaces.ICommand;
 import karpes_dev.trilogy_pazzle.version1.abstractions.IPermission;
 import karpes_dev.trilogy_pazzle.version1.common.Common;
 import karpes_dev.trilogy_pazzle.version1.listeners.PermissionResultListener;

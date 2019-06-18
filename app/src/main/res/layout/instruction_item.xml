@@ -33,7 +33,7 @@
                     android:layout_marginRight="2dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/i1" />
+                    app:srcCompat="@drawable/i1" />
 
                 <ImageView
                     android:id="@+id/image1"
@@ -44,7 +44,7 @@
                     android:layout_marginRight="5dp"
                     android:layout_weight="1"
                     android:adjustViewBounds="true"
-                    android:src="@drawable/i1" />
+                    app:srcCompat="@drawable/i1" />
             </LinearLayout>
 
 

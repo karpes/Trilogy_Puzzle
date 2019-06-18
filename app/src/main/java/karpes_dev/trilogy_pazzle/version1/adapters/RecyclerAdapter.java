@@ -10,7 +10,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import karpes_dev.trilogy_pazzle.R;
-import karpes_dev.trilogy_pazzle.version1.abstractions.ICommand;
 import karpes_dev.trilogy_pazzle.version1.models.FigureModel;
 import karpes_dev.trilogy_pazzle.version1.viewholders.ImageViewHolder;
 
