@@ -6,7 +6,7 @@ import java.util.List;
 
 import karpes_dev.trilogy_pazzle.version2.item.CategoryItem;
 
-public interface ICategoryAdapter {
+public interface IAdapterCategory {
 
     public void initialize(RecyclerView recyclerView, List<CategoryItem> categoryItems);
 }

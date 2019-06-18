@@ -8,11 +8,11 @@ import android.view.ViewGroup;
 import java.util.List;
 
 import karpes_dev.trilogy_pazzle.R;
-import karpes_dev.trilogy_pazzle.version2.interfaces.ICategoryAdapter;
+import karpes_dev.trilogy_pazzle.version2.interfaces.IAdapterCategory;
 import karpes_dev.trilogy_pazzle.version2.item.CategoryItem;
 import karpes_dev.trilogy_pazzle.version2.viewholder.CategoryViewHolder;
 
-public class CategoryAdapter extends RecyclerView.Adapter<CategoryViewHolder> implements ICategoryAdapter {
+public class CategoryAdapter extends RecyclerView.Adapter<CategoryViewHolder> implements IAdapterCategory {
 
     private List<CategoryItem> categoryItems;
 

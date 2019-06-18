@@ -1,11 +1,19 @@
 package karpes_dev.trilogy_pazzle.version2.viewholder;
 
-import android.support.annotation.NonNull;
 import android.support.v7.widget.RecyclerView;
-import android.view.View;
+
+import karpes_dev.trilogy_pazzle.version2.interfaces.AFigureView;
 
 public class ImageViewHolder extends RecyclerView.ViewHolder {
-    public ImageViewHolder(@NonNull View itemView) {
-        super(itemView);
+
+    private AFigureView figureView;
+
+    public ImageViewHolder(AFigureView figureView) {
+        super(figureView);
+        this.figureView = figureView;
+    }
+
+    public AFigureView getFigureView() {
+        return figureView;
     }
 }

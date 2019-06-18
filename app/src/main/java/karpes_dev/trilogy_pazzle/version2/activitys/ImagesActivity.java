@@ -10,21 +10,31 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import karpes_dev.trilogy_pazzle.R;
+import karpes_dev.trilogy_pazzle.version2.interfaces.item.IMathPolygon;
+import karpes_dev.trilogy_pazzle.version2.interfaces.item.IReaderSVG;
+import karpes_dev.trilogy_pazzle.version2.interfaces.item.MathPolygon;
 import karpes_dev.trilogy_pazzle.version2.interfaces.mvp_presenter.IPresenterImages;
 import karpes_dev.trilogy_pazzle.version2.interfaces.mvp_view.IViewImages;
 import karpes_dev.trilogy_pazzle.version2.item.ImageItem;
+import karpes_dev.trilogy_pazzle.version2.item.ReaderSVG;
 import karpes_dev.trilogy_pazzle.version2.mvp_presenter.PresenterImages;
 
 public class ImagesActivity extends AppCompatActivity implements IViewImages {
 
     @BindView(R.id.rv_category) RecyclerView rv_category;
     private IPresenterImages presenterImages;
+    private IReaderSVG readerSVG;
+    private IMathPolygon mathPolygon;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.list_layout);
         ButterKnife.bind(this);
+
+        readerSVG = new ReaderSVG();
+        mathPolygon = new MathPolygon();
+
 
         int categoryId = getIntent().getIntExtra("categoryId", 0);
         presenterImages = new PresenterImages(this, categoryId);

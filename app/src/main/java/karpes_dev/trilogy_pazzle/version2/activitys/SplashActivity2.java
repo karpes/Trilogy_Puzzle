@@ -10,11 +10,6 @@ import karpes_dev.trilogy_pazzle.R;
 
 public class SplashActivity2 extends AppCompatActivity {
 
-    /**
-     *ReaderSVG
-     *Glide
-     */
-
     @Override
     protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
